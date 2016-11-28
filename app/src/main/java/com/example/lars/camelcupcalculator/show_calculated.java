@@ -52,7 +52,7 @@ public class show_calculated extends AppCompatActivity implements View.OnClickLi
         double allend = Ye+We+Oe+Be+Ge;
 
 
-        Yround.setText(Yr/allRound*100 + "%");
+        Yround.setText(String.format("%.4d%%", Yr/allRound*100));
         Wround.setText(Wr/allRound*100 + "%");
         Bround.setText(Br/allRound*100 + "%");
         Ground.setText(Gr/allRound*100 + "%");
